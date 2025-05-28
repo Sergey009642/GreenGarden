@@ -19,7 +19,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="relative max-w-[1000px] mx-auto px-4">
+    <nav className="relative max-w-[full] mx-auto px-4">
       <ul className="hidden sm:flex gap-5 text-[24px] text-white">
         {bars.map((bar) => (
           <li key={bar.id} className="cursor-pointer">
