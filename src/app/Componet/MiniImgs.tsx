@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 function MiniImgs() {
-  const images = ["/Home1.jpg", "/images.jpg", "/Home5.jpg"];
+  const images = ["/home1.jpg", "/Images.jpg", "/Home5.jpg"];
 
   return (
     <div className="flex justify-center items-center m-auto relative top-[-70px]">
