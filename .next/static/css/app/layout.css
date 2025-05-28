@@ -396,6 +396,12 @@
   .gap-\[0\] {
     gap: 0;
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
+  .gap-\[60px\] {
+    gap: 60px;
+  }
   .gap-\[80px\] {
     gap: 80px;
   }
@@ -537,6 +543,12 @@
   }
   .pt-\[100px\] {
     padding-top: 100px;
+  }
+  .pt-\[140px\] {
+    padding-top: 140px;
+  }
+  .pt-\[1000px\] {
+    padding-top: 1000px;
   }
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
@@ -774,6 +786,11 @@
   .max-sm\:py-8 {
     @media (width < 40rem) {
       padding-block: calc(var(--spacing) * 8);
+    }
+  }
+  .max-sm\:text-\[18px\] {
+    @media (width < 40rem) {
+      font-size: 18px;
     }
   }
   .sm\:flex {

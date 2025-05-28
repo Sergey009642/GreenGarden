@@ -4,9 +4,9 @@ function Contact() {
   const images = ["/fb.png", "/Inst.webp", "/watsap.png"];
 
     return(
-<div className="flex justify-center items-center p-[50px]">
+<div className="flex justify-center items-center ">
     <div className="">
-        <div className="w-[350px] h-[400px] bg-[#242123] rounded-2xl">
+        <div className="w-[350px] h-[400px] bg-[#242123] rounded-2xl max-sm:w-[300px]">
             <div className="">
                 <div className="text-center">
                     <h1 className="text-[40px] text-[#fff]">Contact US</h1>
@@ -27,7 +27,7 @@ function Contact() {
     </div>
 </div>
 <div className="pt-[50px] text-center flex flex-col">
-     <a href="mailto:GreenGardneHotelDilijan@mail.ru" className="text-[#0454ff] hover:underline text-[20px]">
+     <a href="mailto:GreenGardneHotelDilijan@mail.ru" className="text-[#0454ff] hover:underline text-[20px] max-sm:text-[18px]">
               GreenGardneHotelDilijan@mail.ru
             </a>
             <a href="tel:093766506" className="hover:underline text-[16px] text-[#fff]">

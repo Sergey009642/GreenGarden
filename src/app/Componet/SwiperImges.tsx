@@ -23,7 +23,7 @@ const images = [
 
 export default function SwiperGallery() {
   return (
-    <div className="w-[600px] max-w-5xl mx-auto py-10 pt-[60px] text-center max-xl:w-[500px] max-lg:w-[360px] max-md:w-[260px]">
+    <div className="w-[600px] mx-auto text-center max-xl:w-[500px] max-lg:w-[360px] max-md:w-[260px]">
       <h1 className="text-[80px] text-[#00ff2a] max-md:text-[60px]"><strong>GARDEN</strong></h1>
       <Swiper
         modules={[Navigation, Pagination]}

@@ -35,7 +35,7 @@ const gardenData: SectionData = {
 };
 
 export default function Footer() {
-  const images: string[] = ["/Fb.png", "/inst.webp", "/watsap.png"];
+  const images: string[] = ["/fb.png", "/Inst.webp", "/watsap.png"];
 
   const renderSection = (data: SectionData) => (
     <div className="max-sm:py-8">
