@@ -475,8 +475,8 @@
   .bg-\[url\(\'\/Home7\.jpg\'\)\] {
     background-image: url('/Home7.jpg');
   }
-  .bg-\[url\(\'\/images\.jpg\'\)\] {
-    background-image: url('/images.jpg');
+  .bg-\[url\(\'\/Images\.jpg\'\)\] {
+    background-image: url('/Images.jpg');
   }
   .bg-cover {
     background-size: cover;

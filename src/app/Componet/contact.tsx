@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 function Contact() {
-  const images = ["/Fb.png", "/inst.webp", "/watsap.png"];
+  const images = ["/fb.png", "/Inst.webp", "/watsap.png"];
 
     return(
 <div className="flex justify-center items-center p-[50px]">
