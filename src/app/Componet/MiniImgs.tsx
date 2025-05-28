@@ -10,8 +10,8 @@ function MiniImgs() {
           <Image
             key={index}
             src={src}
-            width={100}
-            height={100}
+            width={400}
+            height={400}
             alt={`Mini ${index + 1}`}
             className="w-[200px] h-[200px] rounded-[50%] max-md:w-[160px] max-md:h-[160px] max-sm:w-[80px] max-sm:h-[80px]"
           />

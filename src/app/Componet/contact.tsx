@@ -18,8 +18,8 @@ function Contact() {
             <Image
                 key={index}
                 src={src}
-                width={100}
-                height={100}
+                width={400}
+                height={400}
                 alt={`Mini ${index + 1}`}
                 className="w-[50px] h-[50px] p-[4px] rounded-[50%]"
             />

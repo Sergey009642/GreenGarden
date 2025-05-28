@@ -22,8 +22,8 @@ function BigMiniImg() {
               key={index}
               src={src}
               alt={`Mini ${index + 1}`}
-              width={100}
-              height={100}
+              width={400}
+              height={400}
               className={className}
             />
           );
