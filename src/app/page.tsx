@@ -16,7 +16,7 @@ export default function Home() {
       <ImageSwiper/>
       <SwiperRoom/>
       </div>
-      <div className="flex justify-center items-center max-md:flex-col">
+      <div className="flex justify-center items-center gap-[20px] max-md:flex-col">
         <Contact/>
         <MapContact/>
       </div>

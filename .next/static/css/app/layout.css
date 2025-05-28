@@ -80,7 +80,6 @@
       "Courier New", monospace;
     --color-white: #fff;
     --spacing: 0.25rem;
-    --container-5xl: 64rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
@@ -363,9 +362,6 @@
   .w-full {
     width: 100%;
   }
-  .max-w-5xl {
-    max-width: var(--container-5xl);
-  }
   .max-w-\[1000px\] {
     max-width: 1000px;
   }
@@ -396,11 +392,8 @@
   .gap-\[0\] {
     gap: 0;
   }
-  .gap-\[10px\] {
-    gap: 10px;
-  }
-  .gap-\[60px\] {
-    gap: 60px;
+  .gap-\[20px\] {
+    gap: 20px;
   }
   .gap-\[80px\] {
     gap: 80px;
@@ -511,9 +504,6 @@
   .p-\[20px\] {
     padding: 20px;
   }
-  .p-\[50px\] {
-    padding: 50px;
-  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -522,9 +512,6 @@
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
-  }
-  .py-10 {
-    padding-block: calc(var(--spacing) * 10);
   }
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
@@ -535,20 +522,11 @@
   .pt-\[50px\] {
     padding-top: 50px;
   }
-  .pt-\[60px\] {
-    padding-top: 60px;
-  }
-  .pt-\[70px\] {
-    padding-top: 70px;
-  }
   .pt-\[100px\] {
     padding-top: 100px;
   }
   .pt-\[140px\] {
     padding-top: 140px;
-  }
-  .pt-\[1000px\] {
-    padding-top: 1000px;
   }
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
