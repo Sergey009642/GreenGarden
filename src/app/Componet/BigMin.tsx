@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function BigMiniImg() {
   const images = ["/foto1.jpg", "/foto2.jpg", "/foto3.jpg"];
 
@@ -16,10 +18,12 @@ function BigMiniImg() {
           }
 
           return (
-            <img
+            <Image
               key={index}
               src={src}
               alt={`Mini ${index + 1}`}
+              width={100}
+              height={100}
               className={className}
             />
           );

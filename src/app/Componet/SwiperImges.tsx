@@ -5,6 +5,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Image from 'next/image';
 
 const images = [
   '/Images.jpg',
@@ -35,9 +36,11 @@ export default function SwiperGallery() {
         {images.map((src, index) => (
           <SwiperSlide key={index}>
             <div className="h-[450px] w-full overflow-hidden rounded-xl shadow-md flex  max-xl:h-[350px] max-lg:h-[250px] max-md:h-[150px]">
-              <img
+              <Image
                 src={src}
                 alt={`Slide ${index + 1}`}
+                width={100}
+                height={100}
                 className="w-full h-full object-cover"
               />
             </div>

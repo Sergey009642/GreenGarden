@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import React from 'react';
 
 interface InfoItem {
@@ -63,9 +64,11 @@ export default function Footer() {
 
           <div className="flex justify-center gap-4">
             {images.map((src, index) => (
-              <img
+              <Image
                 key={src}
                 src={src}
+                width={100}
+                height={100}
                 alt={`Social ${index + 1}`}
                 className="w-12 h-12 p-1 rounded-full"
               />

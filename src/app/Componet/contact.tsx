@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Contact() {
   const images = ["/Fb.png", "/inst.webp", "/watsap.png"];
 
@@ -13,9 +15,11 @@ function Contact() {
 <div className="flex justify-center items-center pt-[20px]">
     <div className="flex flex-col">
         {images.map((src, index) => (
-            <img
+            <Image
                 key={index}
                 src={src}
+                width={100}
+                height={100}
                 alt={`Mini ${index + 1}`}
                 className="w-[50px] h-[50px] p-[4px] rounded-[50%]"
             />

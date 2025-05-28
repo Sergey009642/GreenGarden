@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link"
  interface Log {
     id:number;
@@ -13,9 +14,11 @@ function Logo() {
             <div className="p-[20px]">
                 {logs.map((Log) =>(
                     <Link href={Log.slug} key={Log.id}>
-                    <img
+                    <Image
                     key={Log.id}
                     src={Log.imges}
+                    width={100}
+                    height={100}
                     alt={`mini${Log.id + 1}`}
                     className="w-[100px] h-[100px] rounded-[50%]"
                     />
