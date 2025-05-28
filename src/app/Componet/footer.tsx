@@ -78,7 +78,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col items-center gap-2 text-sm pt-4">
             <a href="mailto:GreenGardneHotelDilijan@mail.ru" className="text-[#0454ff] hover:underline text-[20px]">
-              GreenGardneHotelDilijan@mail.ru
+              marin_78@list.ru
             </a>
             <a href="tel:093766506" className="hover:underline text-[16px]">
               093-76-65-06
