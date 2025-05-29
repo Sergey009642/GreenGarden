@@ -27,7 +27,7 @@ function Contact() {
     </div>
 </div>
 <div className="pt-[50px] text-center flex flex-col">
-     <a href="mailto:GreenGardneHotelDilijan@mail.ru" className="text-[#0454ff] hover:underline text-[20px] max-sm:text-[18px]">
+     <a href="mailto:marin_78@list.ru" className="text-[#0454ff] hover:underline text-[20px] max-sm:text-[18px]">
                 marin_78@list.ru
             </a>
             <a href="tel:093766506" className="hover:underline text-[16px] text-[#fff]">
