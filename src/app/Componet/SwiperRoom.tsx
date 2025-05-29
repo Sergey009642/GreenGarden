@@ -20,7 +20,7 @@ const images = [
 export default function SwiperRoom() {
   return (
     <div className="w-[600px] mx-auto text-center max-xl:w-[500px] max-lg:w-[360px] max-md:w-[260px]">
-      <h1 className="text-[80px] text-[#00ff2a] max-md:text-[60px]"><strong>HOME</strong></h1>
+      <h1 className="text-[80px] text-[#1b3d21] max-md:text-[60px]"><strong>HOME</strong></h1>
       <Swiper
         modules={[Navigation, Pagination]}
         spaceBetween={20}
