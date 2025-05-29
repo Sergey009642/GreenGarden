@@ -1,7 +1,11 @@
 import Image from "next/image";
 
 function Contact() {
-  const images = ["/fb.png", "/Inst.webp", "/watsap.png"];
+ const images: { src: string; href: string; alt: string }[] = [
+    { src: "/fb.png", href: "https://www.facebook.com/profile.php?id=61563290124228#", alt: "Facebook" },
+    { src: "/Inst.webp", href: "https://www.instagram.com/___greengardendilijan_/", alt: "Instagram" },
+    { src: "/watsap.png", href: "tel:093766506", alt: "WhatsApp" },
+  ];
 
     return(
 <div className="flex justify-center items-center ">
@@ -14,16 +18,22 @@ function Contact() {
         </div>
 <div className="flex justify-center items-center pt-[20px]">
     <div className="flex flex-col">
-        {images.map((src, index) => (
-            <Image
-                key={index}
-                src={src}
-                width={400}
-                height={400}
-                alt={`Mini ${index + 1}`}
-                className="w-[50px] h-[50px] p-[4px] rounded-[50%]"
-            />
-        ))}
+         {images.map((img) => (
+                      <a
+                        key={img.src}
+                        href={img.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src={img.src}
+                          width={100}
+                          height={100}
+                          alt={img.alt}
+                          className="w-12 h-12 p-1 rounded-full hover:scale-110 duration-300"
+                        />
+                      </a>
+                    ))}
     </div>
 </div>
 <div className="pt-[50px] text-center flex flex-col">

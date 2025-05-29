@@ -45,7 +45,7 @@ export default function Home() {
       <div className="w-[100%] h-[120vh] bg-[url('/Home7.jpg')] bg-cover bg-center max-md:h-[90vh] max-sm:h-[80vh]">
       <div className="bg-[#1a1a1a4b] w-full h-[120vh]">
         <div className="flex items-center justify-center pt-[25%] max-sm:pt-[55%]">
-          <h1 className="text-[50px] text-center text-white font-[cursive] font-normal max-sm:text-[26px]">
+          <h1 className="text-[50px] text-center text-white font-[cursive] absolute font-normal max-sm:text-[26px]">
             Ձեր Հանգիստ անցկացրեք
             <br />
             մեզ մոտ
